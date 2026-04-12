@@ -1,5 +1,6 @@
 (function () {
   const config = window.BITGHOST_SITE_CONFIG || {};
+  const legalName = config.legalName || "Cyber Bears";
   const supportEmail = config.supportEmail || "replace-with-your-support-email@example.com";
   const normalizedSupportEmail = supportEmail.trim().toLowerCase();
   const githubIssuesUrl = config.githubIssuesUrl || "";
@@ -16,7 +17,11 @@
   });
 
   document.querySelectorAll("[data-app-subtitle]").forEach((node) => {
-    node.textContent = config.appSubtitle || "Phantom Grid support and policy hub";
+    node.textContent = config.appSubtitle || "Restore the Phantom Grid.";
+  });
+
+  document.querySelectorAll("[data-legal-name]").forEach((node) => {
+    node.textContent = legalName;
   });
 
   document.querySelectorAll("[data-support-email], [data-support-email-href]").forEach((node) => {

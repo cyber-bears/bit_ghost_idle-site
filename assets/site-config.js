@@ -1,9 +1,9 @@
 window.BITGHOST_SITE_CONFIG = {
   appName: "BitGhost",
-  appSubtitle: "Phantom Grid support and policy hub",
+  appSubtitle: "Restore the Phantom Grid.",
   supportEmail: "cyber.bears.tech@gmail.com",
   githubIssuesUrl: "",
   appStoreUrl: "",
-  legalName: "BitGhost",
-  lastUpdated: "2026-04-11"
+  legalName: "Cyber Bears",
+  lastUpdated: "2026-04-12"
 };
