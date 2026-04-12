@@ -3,15 +3,15 @@
   "branch": "main",
   "lastUpdated": "2026-04-11",
   "managedFiles": [
-    ".nojekyll",
+    "index.html",
+    "privacy/index.html",
+    "support/index.html",
     "assets/site-config.js",
     "assets/site.js",
     "assets/styles.css",
-    "index.html",
-    "privacy/index.html",
-    "support/index.html"
+    ".nojekyll"
   ],
   "publicBaseUrl": "https://cyber-bears.github.io/bit_ghost_idle-site/",
-  "publicRepoUrl": "https://github.com/cyber-bears/bit_ghost_idle-site",
+  "publicRepoUrl": "https://github.com/cyber-bears/bit_ghost_idle-site.git",
   "supportEmail": "cyber.bears.tech@gmail.com"
 }

@@ -19,11 +19,14 @@
     node.textContent = config.appSubtitle || "Phantom Grid support and policy hub";
   });
 
-  document.querySelectorAll("[data-support-email]").forEach((node) => {
-    node.textContent = supportEmail;
+  document.querySelectorAll("[data-support-email], [data-support-email-href]").forEach((node) => {
     if (node.tagName === "A") {
       node.setAttribute("href", "mailto:" + supportEmail);
     }
+  });
+
+  document.querySelectorAll("[data-support-email]").forEach((node) => {
+    node.textContent = supportEmail;
   });
 
   document.querySelectorAll("[data-last-updated]").forEach((node) => {
