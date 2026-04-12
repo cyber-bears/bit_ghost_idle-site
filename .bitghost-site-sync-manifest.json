@@ -1,0 +1,17 @@
+{
+  "appName": "BitGhost",
+  "branch": "main",
+  "lastUpdated": "2026-04-11",
+  "managedFiles": [
+    ".nojekyll",
+    "assets/site-config.js",
+    "assets/site.js",
+    "assets/styles.css",
+    "index.html",
+    "privacy/index.html",
+    "support/index.html"
+  ],
+  "publicBaseUrl": "https://cyber-bears.github.io/bit_ghost_idle-site/",
+  "publicRepoUrl": "https://github.com/cyber-bears/bit_ghost_idle-site",
+  "supportEmail": "cyber.bears.tech@gmail.com"
+}
