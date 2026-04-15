@@ -5,5 +5,5 @@ window.BITGHOST_SITE_CONFIG = {
   githubIssuesUrl: "",
   appStoreUrl: "",
   legalName: "Cyber Bears",
-  lastUpdated: "2026-04-12"
+  lastUpdated: "2026-04-13"
 };
